@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity{
     AppsAdapter adapter;
     SharePrefData sharePrefData;
     //=======VARIABLES================//
-    String ApplicationPackageName=null;
+    String  ApplicationPackageName=null;
     static Context context;
     private static final String TAG = "MainActivity";
 
