@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_marginStart263dp">263dp</dimen>
+    <dimen name="layout_marginTop80dp">80dp</dimen>
+    <dimen name="layout_marginStart28dp">28dp</dimen>
+    <dimen name="layout_marginStart147dp">147dp</dimen>
+    <dimen name="layout_marginStart264dp">264dp</dimen>
+    <dimen name="layout_marginTop176dp">176dp</dimen>
+    <dimen name="layout_marginEnd59dp">59dp</dimen>
+    <dimen name="layout_marginStart30dp">30dp</dimen>
+    <dimen name="layout_marginStart148dp">148dp</dimen>
+    <dimen name="layout_marginStart98dp">98dp</dimen>
+    <dimen name="layout_marginTop503dp">503dp</dimen>
+    <dimen name="textSize">16sp</dimen>
+</resources>

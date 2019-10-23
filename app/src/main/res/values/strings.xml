@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GetApps</string>
+    <string name="set">Set Timer</string>
+    <string name="start">Start</string>
+    <string name="twoHours">2hrs</string>
+    <string name="oneAndHalf">1h : 30 min</string>
+    <string name="threeHours">3 hours</string>
+    <string name="thirtyMin">30 min</string>
+    <string name="fiveMin">5 min</string>
+    <string name="oneHour">1 hour</string>
+
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADCFF9"
+    tools:context=".SelectTimer">
+
+    <LinearLayout
+        android:id="@+id/textup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20dp"
+            android:text="How many hours you want to lock ?"
+            android:textSize="@dimen/textSize"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/oneHourBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/layout_marginStart263dp"
+        android:layout_marginTop="@dimen/layout_marginTop80dp"
+        android:background="@drawable/buttons"
+        android:onClick="oneHourBtn"
+        android:text="@string/oneHour" />
+
+    <Button
+        android:id="@+id/fiveMinBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/layout_marginStart28dp"
+        android:layout_marginTop="@dimen/layout_marginTop80dp"
+        android:background="@drawable/buttons"
+        android:onClick="fiveMinBtn"
+        android:text="@string/fiveMin" />
+
+    <Button
+        android:id="@+id/thirtyminBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="@dimen/layout_marginStart147dp"
+        android:layout_marginTop="@dimen/layout_marginTop80dp"
+        android:background="@drawable/buttons"
+        android:onClick="thirtyminBtn"
+        android:text="@string/thirtyMin" />
+
+    <Button
+        android:id="@+id/threeHourBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/layout_marginStart264dp"
+        android:layout_marginTop="@dimen/layout_marginTop176dp"
+        android:layout_marginEnd="@dimen/layout_marginEnd59dp"
+        android:background="@drawable/buttons"
+        android:onClick="threeHourBtn"
+        android:text="@string/threeHours" />
+
+    <Button
+        android:id="@+id/oneAndHalfBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/layout_marginStart30dp"
+        android:layout_marginTop="@dimen/layout_marginTop176dp"
+        android:background="@drawable/buttons"
+        android:onClick="oneAndHalfBtn"
+        android:text="@string/oneAndHalf" />
+
+    <Button
+        android:id="@+id/twoHourBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="@dimen/layout_marginStart148dp"
+        android:layout_marginTop="@dimen/layout_marginTop176dp"
+        android:background="@drawable/buttons"
+        android:onClick="twoHourBtn"
+        android:text="@string/twoHours" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="214dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/layout_marginStart98dp"
+        android:layout_marginTop="@dimen/layout_marginTop503dp"
+        android:background="@drawable/start_btn"
+        android:onClick="startBtn"
+        android:gravity="center"
+        android:text="@string/start" />
+</RelativeLayout>

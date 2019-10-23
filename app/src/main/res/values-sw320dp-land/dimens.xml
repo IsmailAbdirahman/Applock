@@ -1,0 +1,13 @@
+<resources>
+	<dimen name="layout_marginStart28dp">21.8dp</dimen>
+	<dimen name="layout_marginStart148dp">115.2dp</dimen>
+	<dimen name="layout_marginStart147dp">114.4dp</dimen>
+	<dimen name="layout_marginStart264dp">205.5dp</dimen>
+	<dimen name="layout_marginStart30dp">23.4dp</dimen>
+	<dimen name="layout_marginStart263dp">204.7dp</dimen>
+	<dimen name="layout_marginTop80dp">62.3dp</dimen>
+	<dimen name="layout_marginStart98dp">76.3dp</dimen>
+	<dimen name="layout_marginEnd59dp">45.9dp</dimen>
+	<dimen name="layout_marginTop176dp">137dp</dimen>
+	<dimen name="layout_marginTop503dp">391.6dp</dimen>
+</resources>
