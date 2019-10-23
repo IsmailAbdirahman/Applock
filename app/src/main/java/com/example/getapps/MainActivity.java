@@ -51,9 +51,7 @@ public class MainActivity extends AppCompatActivity{
         context = this;
 
     }
-     //TODO: WHAT TO DO TOMORROW ?
-    //TODO: re-open the app, after reboot, and hide within few seconds.
-    //TODO: solve this problem by looking at service class/showApp and hideApp Methods.
+
 
 
 
